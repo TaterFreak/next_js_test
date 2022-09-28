@@ -21,7 +21,7 @@ const About: NextPage = ({photos}:Photos) => {
 
             <Wrapper>
                 <Grid>
-                    {photos.map((photo:Photo) => (
+                    {photos.slice(0, 9).map((photo:Photo) => (
                         <Image
                             loader={myLoader}
                             alt={photo.title}

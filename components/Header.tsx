@@ -5,9 +5,9 @@ import React, { ReactElement } from 'react';
 const Header = ():ReactElement => {
     return (
         <div className={styles.container}>
-            <h1><Link href={'/'}>NextJs</Link></h1>
+            <h1><Link href='/'>NextJs</Link></h1>
             <div className={styles.linkContainer}>
-                <Link href={'/static/About'}>About</Link>
+                <Link href='/static/About'>About</Link>
                 <Link href="/account/Profile">Go to Profile</Link>
             </div>
         </div>
